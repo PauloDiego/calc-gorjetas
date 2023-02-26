@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de gorjetas</title>
+</head>
+<body>
+    <div>
+        <h1>Calculadora de gorjetas</h1>
+    </div>
+    <div>
+        <form action="">
+            <label for="Conta">
+                <p>Quanto ficou a conta?</p>
+            </label>
+            <p>
+                R$ <input type="number" placeholder="100" id="Conta">
+            </p>
+            <label for="QualidadeServiço">
+                <p>Como foi o serviço?</p>
+            </label>
+            <p>
+                <select name="QualidadeServiço" id="QualidadeServiço">
+                  <option disabled selected value="0">Escolha uma opção</option>
+                    <option value="0.3">30% - Incrivel</option>
+                  <option value="0.2">20% - Bom</option>
+                  <option value="0.15">15% - Aceitável</option>
+                  <option value="0.1">10% - Ruim</option>
+                  <option value="0.05">5% - Péssimo</option>
+                </select>
+                <label for="QtdPessoas">
+                    <p>Quantas pessoas vão dividir a conta?</p>
+                </label>
+                <p>
+                  <input type="number" placeholder="1" name="QtdPessoas" id="pessoas"> pessoa(s)
+                  
+                </p>
+            </p>
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+</body>
+</html>
